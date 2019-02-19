@@ -1,18 +1,11 @@
 body {
-	/*background-color: red;*/
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
-
 }
-
 main {
-	/*background-color: pink;*/
-	/*height: auto;*/
-	/*text-align: center;*/
 	display: flex;
 	justify-content: center;
 }
-
 button {
 	margin-top: 32px;
 	width: 70px;
@@ -25,15 +18,12 @@ button {
 button:hover {
 	opacity: 0.8;
 }
-
 h1 {
 	font-size: 64px;
 	color: grey;
 }
-
 .all {
 	width: 70vw;
-	/*background-color: white;*/
 	display: flex;
 	flex-direction: column;
 }
@@ -42,26 +32,17 @@ input {
 	border-radius: 8px;
 	font-size: 24px;
 }
-
 .input-container {
 	font-size: 30px;
 	margin: 10px auto;
-	/*background-color: rgba(0, 0, 0, 0.3);*/
 	height: 250px;
 	width: 40%;
-	
-
-
-	/*display: flex;*/
-	/*justify-content: space-between;*/
 }
-
 .inputEle {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 15px;
 }
-
 select {
 	height: 25px;
 	margin-top: 5px;
@@ -71,18 +52,10 @@ select {
 option {
 	width: 20px;
 }
-
 .result-container {
-
-	/*background-color: blue;*/
-	/*height: 300px;*/
 	font-size: 20px;
-	margin: 61px auto;
-
-	
-	
+	margin: 61px auto;	
 	width: 40%;
-
 }
 .result-container h2 {
 	margin: 0px;
@@ -90,42 +63,13 @@ option {
 .row {
 	display: flex;
 	justify-content: center;
-	
-
-}
-.col {
-	/*float: left;*/
-	
-	
-	/*height: 1px;*/
-	/*background-color: grey;*/
-	/*border: 1px solid black;*/
-
 }
 .col1 {
 	text-align: left;
 	width: 50%;
-
 }
-
 .col2 {
 	text-align: right;
 	width: 30%;
 	margin-bottom: 29px;
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
