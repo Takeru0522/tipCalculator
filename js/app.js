@@ -46,7 +46,7 @@ btn.addEventListener('click', () => {
 		resultPrice = Math.floor(resultPrice * 100) / 100;
 		console.log(resultPrice, 'result AFTER floor');
 
-		result.innerHTML =  `Total Price : ${resultPrice}`;
+		result.innerHTML =  `$${resultPrice}`;
 		// to show tax price only
 		let totalTimesTip = totalInt * tipDecimal;
 		console.log(totalTimesTip, 'totalTimesTip before floor')
@@ -54,14 +54,14 @@ btn.addEventListener('click', () => {
 		totalTimesTip = Math.floor(totalTimesTip * 100) / 100;
 		
 		console.log(totalTimesTip, 'totalTimesTip AFTER floor')
-		resultTip.innerHTML = `Tip : ${totalTimesTip}`;
+		resultTip.innerHTML = `$${totalTimesTip}`;
 
 		// split
 		let splitedPrice = resultPrice / peopleInt;
 		console.log(splitedPrice, 'Before floor - 1');
 		splitedPrice = Math.floor(splitedPrice * 100) / 100;
 		console.log(splitedPrice, 'AFTER floor - 1')
-		perPerson.innerHTML = `${splitedPrice} / person`;
+		perPerson.innerHTML = `$${splitedPrice} / person`;
 
 	}
 	caliculation()
